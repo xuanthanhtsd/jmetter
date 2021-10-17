@@ -1,2 +1,2 @@
 cd D:\Perfomance\apache-jmeter-5.4.1\apache-jmeter-5.4.1\bin
-jmeter -n -t "D:\Perfomance\VIN\VIN\VIN_STRESS_100_user_event_1149.jmx" -l "D:\Perfomance\VIN\VIN\result\VIN_STRESS_100_user_event_1149_log.jtl" -Jthreads=100 -JRAMP_UP=20 -JLOOP=1 -e -o "D:\Perfomance\VIN\VIN\result\VIN_STRESS_100_user_event_1149"
+jmeter -n -t "D:\Perfomance\VIN\VIN\VIN_STRESS_100_user_event_1149.jmx" -l "D:\Perfomance\VIN\VIN\result\VIN_STRESS_100_user_event_1149_log.jtl" -e -o "D:\Perfomance\VIN\VIN\result\VIN_STRESS_100_user_event_1149"
