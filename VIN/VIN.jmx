@@ -32,7 +32,7 @@
       </Arguments>
       <hashTree/>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
-        <stringProp name="filename">D:/Perfomance/VIN/VIN/input/input_100_user_1_event.csv</stringProp>
+        <stringProp name="filename">${__P(INPUT,)}</stringProp>
         <stringProp name="fileEncoding">UTF-8</stringProp>
         <stringProp name="variableNames">username,eventid</stringProp>
         <boolProp name="ignoreFirstLine">true</boolProp>
@@ -829,7 +829,7 @@ vars.put(&quot;event_id&quot;, event_id);</stringProp>
               <sampleCount>true</sampleCount>
             </value>
           </objProp>
-          <stringProp name="filename">D:\Perfomance\VIN\VIN\result\output-report.csv</stringProp>
+          <stringProp name="filename">${__P(OUTPUT,)}</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
