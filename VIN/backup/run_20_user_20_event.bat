@@ -1,2 +1,0 @@
-cd D:\Perfomance\apache-jmeter-5.4.1\apache-jmeter-5.4.1\bin
-jmeter -n -t "D:\Perfomance\VIN\VIN\VIN_STRESS_20_user_20_event.jmx" -l "D:\Perfomance\VIN\VIN\result\VIN_STRESS1_20_4s_1_200ms.jtl" -DTHREADS=20 -DRAMP_UP=4 -DLOOP=1 -e -o "D:\Perfomance\VIN\VIN\result\20_4s_1_200ms"

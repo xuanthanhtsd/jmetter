@@ -5,9 +5,9 @@ SET JMETER_PATH=D:\Perfomance\apache-jmeter-5.4.1\apache-jmeter-5.4.1\bin
 REM Please Define basic variables 
 SET BASE_PATH=D:\Perfomance\VIN\VIN\
 SET SCRIPT_NAME=VIN.jmx
-SET THREAD=20
-SET RAMP_UP=20
-SET CSV_FILE=20-user-20-event.csv
+SET THREAD=100
+SET RAMP_UP=100
+SET CSV_FILE=500-user-1-event.csv
 
 REM variable 
 SET outputReport=vin-thread-%THREAD%-rampup-%RAMP_UP%

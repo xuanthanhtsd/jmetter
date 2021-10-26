@@ -1,1 +1,0 @@
-jmeter -n -t "D:\Perfomance\VIN\VIN\VIN.jmx" -l "D:\Perfomance\VIN\VIN\result\log-for-report.jtl" -DTHREADS=10 -DRAM_UP=2 -e -o "D:\Perfomance\VIN\VIN\result\VIN_STRESS_100_user_event_1149"
